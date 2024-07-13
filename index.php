@@ -47,9 +47,8 @@
                 ?>
                     <a href="produk.php?kat=<?php echo $k['category_id'] ?>">
                         <div class="col-5">
-                            <img src="" width="50px" style="margin-botton: 5px;">
+                            <img src="foto/kategori.png" width="100px" style="margin-botton: 5px;">
                             <p><?php echo $k['category_name'] ?></p>
-                            <p>Kategori1</p>
                         </div>
                     </a>
                 <?php }}else{ ?>
